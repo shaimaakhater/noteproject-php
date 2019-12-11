@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+	background: #F8F8FF;
+}
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background: rgb(224, 52, 153);
+	text-align: center;
+	border: 1px solid #B0C4DE;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	background: white;
+	border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: rgb(224, 52, 153);
+	border: none;
+	border-radius: 5px;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+.bg
+{
+    background-image:url('images/note.jpg');
+    -webkit-background-size: cover;/*css3*/
+    -moz-background-size: cover;/*css3*/
+    -o-background-size: cover;/*css3*/
+    background-size: cover;/*css3*/
+    height: 600px;
+}
+
+.intro
+{
+    padding-top: 200px;
+    text-align: center;
+    color: rgb(107, 27, 74);
+}
+.intro h2
+{
+	margin: 0 auto;
+    width: 600px;
+    font-size: 50px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0;
+}
+.intro button
+{
+    background:none;
+    margin-top: 30px;
+    font-size: 20px;
+    border:2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.intro button a{  text-decoration: none;}
+.red
+{color:rgb(12, 134, 83)}
+.aqua
+{color:rgb(21, 97, 97)}
+
+
+  
+  .box select {
+	color: black;
+	padding: 12px;
+	width: 250px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+  }
+  
+  .box::before {
+	font-family: FontAwesome;
+	top: 0;
+	right: 0;
+	width: 20%;
+	height: 100%;
+	text-align: center;
+	font-size: 28px;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .box:hover::before {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+	padding: 30px;
+  }
+
